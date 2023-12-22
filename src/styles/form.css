@@ -1,0 +1,134 @@
+.conent-make {
+    width: 100% !important;
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+.sidebar {
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.payment-form {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #e8eeeb;
+    margin-top: -265px;
+    margin-left: 360px;
+    border: none;
+}
+
+.payment-form input,
+.payment-form select,
+.payment-form textarea {
+    width: 100%;
+    border: 2px solid #cccccc;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: .3s;
+    background-color: #ebf0ed;
+
+
+}
+
+input[type=text]:focus {
+    box-shadow: 0 0 8px 0 rgb(221, 222, 221);
+    background-color: rgb(234, 248, 235);
+}
+
+input[type=date]:focus {
+    box-shadow: 0 0 8px 0 rgb(221, 222, 221);
+    background-color: rgb(234, 248, 235);
+}
+
+input[type=number]:focus {
+    box-shadow: 0 0 8px 0 rgb(221, 222, 221);
+    background-color: rgb(234, 248, 235);
+}
+
+.button-group {
+    display: flex;
+    gap: 30px;
+}
+
+p {
+    font-weight: 600;
+}
+
+.payment-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    height: 70px;
+    background-color: #ebf0ed;
+}
+
+.payment-form .first-field,
+.payment-form .second-field,
+.payment-form .third-field {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.payment-form .first-field .form-group,
+.payment-form .second-field .form-group,
+.payment-form .third-field .form-group {
+    width: 48%;
+    box-sizing: border-box;
+}
+
+.payment-form textarea {
+    width: 100%;
+}
+
+.payment-form .btn {
+    width: 20%;
+    cursor: pointer;
+    padding: 10px 16px;
+    margin-bottom: 8px;
+    border-radius: 20px;
+    border: none;
+}
+
+.btn-primary {
+    background-color: rgb(183, 228, 183);
+}
+
+.btn-secondary {
+    background-color: #6c7378;
+}
+
+.payment-heading {
+    color: rgb(127, 177, 127);
+}
+
+@media screen and (max-width: 768px) {
+    .conent-make {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sidebar,
+    .payment-form {
+        width: 100%;
+        max-width: none;
+    }
+
+    .payment-form {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .payment-form .btn {
+        align-items: center;
+    }
+}

@@ -1,0 +1,90 @@
+.header {
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.left {
+    display: flex;
+}
+
+.header img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.middle {
+    display: flex;
+    align-items: center;
+}
+
+.middle span {
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+}
+
+.middle span:not(:last-child) {
+    margin-right: 20px;
+}
+
+.btn-maintain {
+    background: #7f8280;
+    border: 2px solid #7f8280;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    opacity: 0.7;
+}
+
+.btn-maintain svg {
+    margin-right: 5px;
+}
+
+.btn-maintain span {
+    margin-right: 10px;
+}
+
+.right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .middle {
+        margin-top: 10px;
+    }
+
+    .middle span {
+        margin: 10px 0;
+    }
+
+    .right {
+        display: flex;
+        justify-content: space-around;
+    }
+}
