@@ -75,7 +75,7 @@ input[type=number]:focus {
 }
 
 .payment-form .btn {
-    width: 20%;
+    width: 25%;
     cursor: pointer;
     padding: 10px 16px;
     margin-bottom: 8px;
@@ -124,6 +124,14 @@ input[type=number]:focus {
     }
 
     .payment-form .btn {
-        align-items: center;
+        width: 80px;
     }
+
+    /* .payment-form .btn-primary {
+        margin-left: -3px;
+    }
+
+    .payment-form .btn-secondary {
+        align-items: center;
+    } */
 }
