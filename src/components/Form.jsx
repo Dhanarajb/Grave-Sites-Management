@@ -40,24 +40,30 @@ const PaymentForm = () => {
                     <div className="section">
                         <div className="info">
                             <p>Grave Site</p>
-                            <TbGrave2 />
-                            <span> 01-1001-05.0</span>
+                            <span className='align-sidecontent'>
+                                <TbGrave2 />
+                                <span> 01-1001-05.0</span>
+                            </span>
                         </div>
                     </div>
 
                     <div className="section">
                         <div className="info">
                             <p>Owner</p>
-                            <FiUser />
-                            <span> Lorraine & Russ Stewart</span>
+                            <span className='align-sidecontent'>
+                                <FiUser />
+                                <span> Lorraine & Russ Stewart</span>
+                            </span>
                         </div>
                     </div>
 
                     <div className="section">
                         <div className="info">
                             <p>Person Buried</p>
-                            <GoInbox />
-                            <span> Edgar Steward</span>
+                            <span className='align-sidecontent'>
+                                <GoInbox />
+                                <span> Edgar Steward</span>
+                            </span>
                         </div>
                     </div>
                 </div>

@@ -13,12 +13,12 @@ const Header = () => {
             </div>
             <div className="middle">
                 <span>
-                    <button className='btn-maintain'>
+                    <button className='btn-maintain align-content'>
                         <MdOutlineWindow /> Maintain <MdOutlineKeyboardArrowDown />
                     </button>
                 </span>
-                <span><FaDollarSign /> Payments</span>
-                <span><FaRegFileAlt /> Reports</span>
+                <span className='align-content'><FaDollarSign /> Payments</span>
+                <span className='align-content'><FaRegFileAlt /> Reports</span>
             </div>
             <div className="right">
                 <span><FaSearch className="icon" /></span>
