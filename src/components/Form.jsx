@@ -160,7 +160,7 @@ const PaymentForm = () => {
                                 />
                             </div>
                         </div>
-                        <br />
+
                         <hr />
                         <br />
                         <div className="form-group">

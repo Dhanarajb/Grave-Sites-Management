@@ -8,7 +8,7 @@ const Header = () => {
     return (
         <header className="header">
             <div className="left">
-                <img src="https://cdn.create.vista.com/api/media/small/461921902/stock-vector-cemetery-grave-gravestone-icon-flat-style" alt="Logo" />
+                <a href="/"><img src="https://cdn.create.vista.com/api/media/small/461921902/stock-vector-cemetery-grave-gravestone-icon-flat-style" alt="Logo" /></a>
                 <span className="label">Grave Sites Managements</span>
             </div>
             <div className="middle">
